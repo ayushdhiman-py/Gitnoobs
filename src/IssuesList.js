@@ -27,11 +27,11 @@ const IssuesList = () => {
             <div>
                 <div>
                     <center>
-                        <h1 style={{ color: "white" }}>
+                        <h1 style={{ color: "black" }}>
                             Your github <span style={{ fontStyle: "italic", color: "#29bf12" }}> issue </span> finder
                         </h1>
                         <h3>
-                            Made with ❤️ by <span><a href="https://www.linkedin.com/in/ayush-dhiman-3000651a0/" target="_blank" style={{textDecoration:"none", color:"white"}}> Ayush Dhiman </a></span>
+                            Made with ❤️ by <span><a href="https://www.linkedin.com/in/ayush-dhiman-3000651a0/" target="_blank" style={{textDecoration:"none", color:"black"}}> Ayush Dhiman </a></span>
                         </h3>
                         <form onSubmit={handleSubmit}>
                             <input placeholder='enter here' style={{ borderRadius: "10px", outline: "none", border: "0.3px solid green", padding: "10px 5px", marginBottom: "5px", width: "25%", fontSize: "1.3rem", color: "yellow", backgroundColor: "black", fontWeight: "bolder" }} /> <br />
